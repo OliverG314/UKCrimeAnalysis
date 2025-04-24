@@ -41,7 +41,7 @@ We can now see that, while burglaries and thefts were decreasing between 2015 an
 
 ## Chloropleth map of 1 variable
 
-![violenceAgainstPerson2021](https://github.com/user-attachments/assets/44fbaa3e-5433-4e2c-b6ad-ded43ed26085)
+![violenceAgainstPerson2021](https://github.com/user-attachments/assets/9da13a44-5834-4b98-94e9-16b7691c4a8f)
 
 The police force areas with the 3 highest counts of violence against the person are:
 - Metropolitan Police
