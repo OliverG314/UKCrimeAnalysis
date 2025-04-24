@@ -38,3 +38,12 @@ This shows the counts of burglaries, thefts, and robberies in the South West reg
 ![SWBurgTheftRobNorm](https://github.com/user-attachments/assets/8c614b32-9e68-4c81-add0-c2545d15124a)
 
 We can now see that, while burglaries and thefts were decreasing between 2015 and 2021, after which they increased, robberies have been increasing since 2015, only dropping in 2021
+
+## Chloropleth map of 1 variable
+
+![violenceAgainstPerson2021](https://github.com/user-attachments/assets/44fbaa3e-5433-4e2c-b6ad-ded43ed26085)
+
+The police force areas with the 3 highest counts of violence against the person are:
+- Metropolitan Police
+- Greater Manchester
+- West Yorkshire
