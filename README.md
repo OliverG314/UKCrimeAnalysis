@@ -25,3 +25,13 @@ Values across all regions were also compared to identify any regional trends.
 ## 1 variable, multiple areas
 ![burglaryCountsOverTime](https://github.com/user-attachments/assets/e1119f5a-e8d0-4d52-8683-f7710de85955)
 (Note: Data is missing for Greater Manchester in 2019, hence the lower than expected count for the North West in 2019)
+
+From this, we can see that, since 2015, there has been a general downwards trend in the number of burglaries.
+
+## Multiple variables, 1 area
+![SWBurgTheftRob](https://github.com/user-attachments/assets/3ee9769d-486b-4baf-be9a-c88c582abeab)
+
+This shows the counts of burglaries, thefts, and robberies in the South West region over time. To see trends between variables, we can normalise the counts.
+![SWBurgTheftRobNorm](https://github.com/user-attachments/assets/8c614b32-9e68-4c81-add0-c2545d15124a)
+
+We can now see that, while burglaries and thefts were decreasing between 2015 and 2021, after which they increased, robberies have been increasing since 2015, only dropping in 2021
