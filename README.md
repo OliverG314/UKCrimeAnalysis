@@ -24,7 +24,7 @@ Values across all regions were also compared to identify any regional trends/reg
 
 ## 1 variable, multiple areas
 
-![burglaryCountsOverTime](https://github.com/user-attachments/assets/ec5b1a45-5ba5-4874-850b-f9f9bc8e58bc)
+![burglaryCountsOverTime](https://github.com/user-attachments/assets/a3d91781-b72f-4773-87ed-c39bd728f2c9)
 (Note: Data is missing for Greater Manchester in 2019, hence the lower than expected count for the North West in 2019)
 
 From this, we can see that, since 2015, there has been a general downwards trend in the number of burglaries.
