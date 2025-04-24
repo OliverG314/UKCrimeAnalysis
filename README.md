@@ -17,7 +17,7 @@ The columns in the crime dataset for 2015 were ordered differently to other year
 # Exploratory analysis
 Exploring the data involved looking for trends over time within and between regions. For a fair comparison of regions, values were divided by the population in that area. 
 
-Values across all regions were also compared to identify any regional trends. 
+Values across all regions were also compared to identify any regional trends/regions of interest.
 
 # Visualisations
 3 types of plots were generated, each allowing multiple variables to be explored.
@@ -47,3 +47,12 @@ The police force areas with the 3 highest counts of violence against the person 
 - Metropolitan Police
 - Greater Manchester
 - West Yorkshire
+
+With all of these plots, other variables can be explored.
+
+# Tools used
+To build and clean the data, I used Excel.
+
+To merge the population and distance driven datasets with the crime datasets, I used Python.
+
+To analyse and plot the data, I used RStudio. To manipulate the data, I used dplyr, and to visualise it, I used ggplot2.
