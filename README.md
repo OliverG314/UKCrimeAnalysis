@@ -31,11 +31,11 @@ From this, we can see that, since 2015, there has been a general downwards trend
 
 ## Multiple variables, 1 area
 
-![SWBurgTheftRob](https://github.com/user-attachments/assets/e8c5d958-0d6a-4266-8b1e-aa8f28b3edbb)
+![SWBurgTheftRob](https://github.com/user-attachments/assets/41530d16-16bb-44ee-bdab-2c56017294c2)
 
 This shows the counts of burglaries, thefts, and robberies in the South West region over time. To see trends between variables, we can normalise the counts.
 
-![SWBurgTheftRobNorm](https://github.com/user-attachments/assets/8c614b32-9e68-4c81-add0-c2545d15124a)
+![SWBurgTheftRobNorm](https://github.com/user-attachments/assets/776f0162-a3e0-4b23-a124-f86bfbecee4d)
 
 We can now see that, while burglaries and thefts were decreasing between 2015 and 2021, after which they increased, robberies have been increasing since 2015, only dropping in 2021
 
