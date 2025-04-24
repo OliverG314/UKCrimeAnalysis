@@ -6,7 +6,9 @@ This project aims to explore regional crime statistics in order to look for tren
 
 # Data sources
 Crime data was downloaded from the Office for National Statistics (https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/previousReleases?page=1)
+
 Distance driven data was downloaded from the UK Government (https://www.gov.uk/government/statistical-data-sets/road-traffic-statistics-tra#traffic-by-local-authority-tra89)
+
 Population data was downloaded from the Office for National Statistics (https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales)
 
 # Data cleaning
