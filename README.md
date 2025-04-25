@@ -37,7 +37,7 @@ This shows the counts of burglaries, thefts, and robberies in the South West reg
 
 ![SWBurgTheftRobNormTotal](https://github.com/user-attachments/assets/874bcc54-8391-4077-bb8c-cc608d80b5c6)
 
-While the count of theft has been increasing since 2021, the portion of crime that is theft has been decreasing.
+While the count of theft has been increasing since 2021, the portion of crime that is theft has been increasing much less shaprly.
 
 ## Chloropleth map of 1 variable
 
