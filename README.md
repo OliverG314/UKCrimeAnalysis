@@ -64,3 +64,5 @@ To analyse and plot the data, I used RStudio. To manipulate the data, I used dpl
 Data is missing for Greater Manchester in 2019. 
 
 The homicide count for Yorkshire and The Humber in 2016 is a potential outlier, as it is much larger than expected given the general trend.
+
+Data for "death and serious injury - unlawful driving" and "stalking and harrasment" does not exist for year 2015 and 2016
