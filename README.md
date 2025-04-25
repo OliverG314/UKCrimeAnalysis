@@ -41,16 +41,15 @@ We can now see that, while burglaries and thefts were decreasing between 2015 an
 
 ## Chloropleth map of 1 variable
 
-![violenceAgainstPerson2021](https://github.com/user-attachments/assets/5be874a7-d1fa-4065-8b1f-008ee6947e35)
-
-The police force areas with the 3 highest counts of violence against the person are:
-- Metropolitan Police
-- Greater Manchester
-- West Yorkshire
+![violenceAgainstPerson2020](https://github.com/user-attachments/assets/6ea29523-92ef-4e5b-a390-eb450e2071c9)
 
 However, we may want to see which area experienced the most violence against the person per capita.
 
-![violenceAgainstPerson2021divPop](https://github.com/user-attachments/assets/dc166392-8776-4604-8833-c2984c181e99)
+![violenceAgainstPerson2020divPop](https://github.com/user-attachments/assets/2192a2d4-1cdf-4ad2-a900-135aee77429a)
+
+One drawback of this plot is that the City of London is a very small region, and so is hard to see. For that reason, there is an option to not plot it
+
+![violenceAgainstPerson2020divPopDelLdn](https://github.com/user-attachments/assets/972c144c-0c4d-42a7-a442-4b29b563bdd5)
 
 With all of these plots, other variables can be explored.
 
