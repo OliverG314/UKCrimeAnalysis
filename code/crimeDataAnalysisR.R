@@ -154,8 +154,9 @@ plotVarsOverTime <- function(areaValue,
     select(c("year", columns)) %>%
     pivot_longer(cols=columns)
   
-  titleText <- str_wrap(paste("Counts of variables in", areaValue, 
-                              "over time"), width=titleW)
+  titleText <- str_wrap(paste("Counts of variables in", 
+                              str_to_lower(areaValue), "over time"), 
+                        width=titleW)
   yLabel    <- "Count"
   
   if (divValue != F){
@@ -173,8 +174,9 @@ plotVarsOverTime <- function(areaValue,
     divText <- colNameTitleDf[colNameTitleDf$col == divValue,]$title
     
     titleText <- str_wrap(paste("Counts of variables, in", 
-                                areaValue, "over time, divided by", 
-                                divText), width=titleW)
+                                str_to_lower(areaValue),
+                                "over time, divided by", 
+                                str_to_lower(divText)), width=titleW)
     yLabel    <- divText
   }
   
@@ -276,9 +278,12 @@ plotMap <- function(column, yearValue,
   mapPlot
 }
 ####Save####
-saveFile <- T
+saveFile <- F
 
-plt <- plotDataOverTime("totalCrimeExFraud", divValue = "population")
+plt <- plotDataOverTime("totalCrimeExFraud", 
+                        areas = c("North East", "London",
+                                  "South East", "East"),
+                        divValue = "population")
 
 if (saveFile == T){
   filename <- "imgName"
