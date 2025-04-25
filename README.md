@@ -33,7 +33,7 @@ From this, we can see that, since 2015, there has been a general downwards trend
 
 ![SWBurgTheftRob](https://github.com/user-attachments/assets/41530d16-16bb-44ee-bdab-2c56017294c2)
 
-This shows the counts of burglaries, thefts, and robberies in the South West region over time. To see trends between variables, we can normalise the counts.
+This shows the counts of burglaries, thefts, and robberies in the South West region over time.
 
 ## Chloropleth map of 1 variable
 
