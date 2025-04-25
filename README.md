@@ -59,3 +59,8 @@ To build and clean the data, I used Excel.
 To merge the population and distance driven datasets with the crime datasets, I used Python.
 
 To analyse and plot the data, I used RStudio. To manipulate the data, I used dplyr, and to visualise it, I used ggplot2.
+
+# Important notes
+Data is missing for Greater Manchester in 2019. 
+
+The homicide count for Yorkshire and The Humber in 2016 is a potential outlier, as it is much larger than expected given the general trend.
