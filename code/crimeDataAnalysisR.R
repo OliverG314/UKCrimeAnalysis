@@ -277,7 +277,7 @@ plotMap <- function(column, yearValue,
   
   mapPlot
 }
-####Save####
+####Plot and save####
 saveFile <- F
 
 plt <- plotDataOverTime("totalCrimeExFraud", 
