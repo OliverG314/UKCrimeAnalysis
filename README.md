@@ -48,6 +48,10 @@ The police force areas with the 3 highest counts of violence against the person 
 - Greater Manchester
 - West Yorkshire
 
+However, we may want to see which area experienced the most violence against the person per capita.
+
+![violenceAgainstPerson2021divPop](https://github.com/user-attachments/assets/dc166392-8776-4604-8833-c2984c181e99)
+
 With all of these plots, other variables can be explored.
 
 # Tools used
