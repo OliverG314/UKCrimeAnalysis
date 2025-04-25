@@ -120,6 +120,7 @@ plotDataOverTime <- function(column,
   
   titleText <- str_wrap(paste("Counts of", str_to_lower(title), 
                         "over time"), width=titleW)
+  yLabel <- title
   
   if (divValue != F){
     divVal <- valueTimeDf[[divValue]]
@@ -133,6 +134,7 @@ plotDataOverTime <- function(column,
     
     titleText <- str_wrap(paste("Counts of", str_to_lower(title), 
                           "over time, divided by", str_to_lower(divText)), width=titleW)
+    yLabel <- str_wrap(paste(title, "divided by", str_to_lower(divText)), width=40)
   }
   
   valueTimePlot <- ggplot(valueTimeDf,
@@ -143,7 +145,7 @@ plotDataOverTime <- function(column,
     scale_color_discrete(name="Area") +
     labs(title = titleText,
          x     = "Year ending September",
-         y     = title) +
+         y     = yLabel) +
     theme(text = element_text(family = "Font"))
   
   valueTimePlot
@@ -285,8 +287,8 @@ plotMap <- function(column, yearValue,
 saveFile <- F
 
 plt <- plotDataOverTime("totalCrimeExFraud", 
-                        areas = c("North East", "London",
-                                  "South East", "East"),
+                        areas = c("England",
+                                  "Wales"),
                         divValue = "population")
 
 if (saveFile == T){
