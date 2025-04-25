@@ -49,7 +49,7 @@ However, we may want to see which area experienced the most violence against the
 
 One drawback of this plot is that the City of London is a very small region, and so is hard to see. For that reason, there is an option to not plot it
 
-![violenceAgainstPerson2020divPopDelLdn](https://github.com/user-attachments/assets/972c144c-0c4d-42a7-a442-4b29b563bdd5)
+![violenceAgainstPerson2020divPopDelLdn](https://github.com/user-attachments/assets/4916b9d6-26c2-45df-8916-60dc0cec6c65)
 
 With all of these plots, other variables can be explored.
 
