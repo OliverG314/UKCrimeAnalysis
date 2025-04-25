@@ -49,6 +49,10 @@ df <- df %>%
   renameCol("Million.kms.by.hgvs", "mlnHGVKms") %>%
   renameCol("Million.kms.by.lcvs", "mlnLCVKms")
 
+df$area[df$area == "ENGLAND AND WALES"] <- "England and Wales"
+df$area[df$area == "ENGLAND"] <- "England"
+df$area[df$area == "WALES"] <- "Wales"
+
 colNameTitleDf <- data.frame(col = c("year", "area", "totalCrimeExFraud",
                                      "violenceAgainstPerson", "homicide",
                                      "deathInjuryDriving", "violenceWithInjury",
