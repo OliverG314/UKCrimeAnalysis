@@ -15,7 +15,7 @@ Population data was downloaded from the Office for National Statistics (https://
 The columns in the crime dataset for 2015 were ordered differently to other years, so were manually changed. Some regions needed renaming as they were different in different datasets, e.g. "City of London" and "London, City of", or "Devon and Cornwall", and "Devon & Cornwall". Regions within the population dataset were split up into unitary authorities, metropolitan counties, and metropolitan districts, whereas only the unitary authorities and metropolitan districts were required; these were manually appended to the crime dataset using Excel.
 
 # Exploratory analysis
-Exploring the data involved looking for trends over time within and between regions. For a fair comparison of regions, values were divided by the population in that area. 
+Exploring the data involved looking for trends over time within and between regions. For a fair comparison of regions, values can be divided by the population in that area. 
 
 Values across all regions were also compared to identify any regional trends/regions of interest.
 
